@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--Very-dark-blue-main-BG);
+    font-family: "Outfit";
+}
+
+/*card*/
+
+.main-card{
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    width: 330px;
+    height: 530px;
+    background-color: var(--Very-dark-blue-card-BG);
+    border-radius: 10px;
+}
+
+.content h1{
+    color: var(--White);
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+    letter-spacing: 0.1em;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.content p{
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    color: var(--Soft-blue);
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+.ETH{
+    display: block;
+    margin: auto;
+    border-bottom: 1px solid var(--Very-dark-blue-line);
+    width: 290px;
+}
+.ETH h3{
+    display: inline-block;
+    position: relative;
+    right: 35px;
+    color: var(--Cyan);
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 140px;
+}
+
+.ETH p{
+    display: inline-block;
+    position: relative;
+    left: 5px;
+ 
+}
+
+/*imagem*/
+
+.img-icon-eth{
+    padding-right: 2px;
+    box-sizing: border-box;
+}
+
+.img-icon-clock{
+    padding-right: 2px;
+}
+
+.image-equilibrium{
+    margin-top: 20px;
+    width: 290px;
+    height: 266px;
+    border-radius: 9px;
+}
+
+.image-avatar{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    width: 36px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+}
+
+/*parte final do card*/
+
+.author{
+    margin-top: 16px;
+    text-align: left;
+    padding-left: 18px;
+}
+
+.author p{
+    display: inline-block;
+    position: relative;
+    right: 5px;
+    bottom: 3px;
+    font-size: 18px;
+}
+
+.link-author{
+    text-decoration: none;
+    color: var(--White);
+}
+
+/*transição*/
+
+.link-author:hover{
+    color: var(--Cyan);
+    transition: 0.4s ease;
+}
+
+.Equilibrium h1:hover{
+    color: var(--Cyan);
+    transition: 0.4s ease;
+
+}
+
+
+
+
+
+
+
+
+
+
