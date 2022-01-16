@@ -19,15 +19,16 @@ body{
 
 /*card*/
 
-.main-card{
-    margin: auto;
-    margin-top: 50px;
+.card{
     display: block;
+    margin: auto;
+    margin-top: 40px;
     text-align: center;
-    width: 330px;
+    width: 320px;
     height: 530px;
     background-color: var(--Very-dark-blue-card-BG);
-    border-radius: 10px;
+    border-radius: 14px;
+    border: 1px solid transparent;
 }
 
 .content h1{
@@ -35,6 +36,8 @@ body{
     font-size: 18px;
     text-align: left;
     padding-left: 20px;
+    padding-top: 5px;
+    width: 190px;
     letter-spacing: 0.1em;
 }
 
@@ -49,19 +52,35 @@ body{
     color: var(--Soft-blue);
     text-align: left;
     padding-left: 20px;
+    padding-top: 3px;
     
+}
+
+.frame{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 275px;
+    height: 264px;
+    background-color: var(--Cyan);
+    background-image: url(/images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+
 }
 
 .ETH{
     display: block;
     margin: auto;
+    padding-top: 5px;
     border-bottom: 1px solid var(--Very-dark-blue-line);
     width: 290px;
 }
 .ETH h3{
     display: inline-block;
     position: relative;
-    right: 35px;
+    right: 30px;
     color: var(--Cyan);
     font-size: 18px;
     box-sizing: border-box;
@@ -77,6 +96,14 @@ body{
 
 /*imagem*/
 
+.image-equilibrium{
+    margin: auto;
+    width: 276px;
+    height: 265px;
+    border-radius: 9px;
+
+}
+
 .img-icon-eth{
     padding-right: 2px;
     box-sizing: border-box;
@@ -86,18 +113,11 @@ body{
     padding-right: 2px;
 }
 
-.image-equilibrium{
-    margin-top: 20px;
-    width: 290px;
-    height: 266px;
-    border-radius: 9px;
-}
-
 .image-avatar{
     display: inline-block;
     position: relative;
-    top: 10px;
-    width: 36px;
+    top: 9px;
+    width: 35px;
     border: 1px solid var(--White);
     border-radius: 50%;
 }
@@ -105,15 +125,15 @@ body{
 /*parte final do card*/
 
 .author{
-    margin-top: 16px;
+    margin-top: 8px;
     text-align: left;
-    padding-left: 18px;
+    padding-left: 15px;
 }
 
 .author p{
     display: inline-block;
     position: relative;
-    right: 5px;
+    right: 9px;
     bottom: 3px;
     font-size: 18px;
 }
@@ -134,6 +154,11 @@ body{
     color: var(--Cyan);
     transition: 0.4s ease;
 
+}
+
+.image-equilibrium:hover{
+    opacity: 0.5;
+    transition: 0.4s ease;
 }
 
 
